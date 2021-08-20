@@ -1546,6 +1546,9 @@ body,html{
     .hanletter-text>h1{
         font-size: 36px;
     }
+    .e-mail{
+        padding: 10px 100px;
+    }
 }
 @media(max-width:415px){
     .hanletter-text>h1{
