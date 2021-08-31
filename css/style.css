@@ -46,8 +46,8 @@ body,html{
     border: 1px solid #000;
     border-radius: 100%;
     cursor: pointer;
-    top: 80%;
-    right: 10%;
+    top: 90%;
+    right: 5%;
 }
 
 .menu{
@@ -1258,7 +1258,9 @@ body,html{
 /* --------------section04끝--------------------- */
 
 /* --------------section05시작--------------------- */
-
+.section05{
+    padding-top: 100px;
+}
 .sec05-top-text-box{
     text-align: center;
 }
@@ -1485,7 +1487,7 @@ body,html{
 
 /* ------------------------hanletter----------------------------------- */
 .han{
-    padding: 100px 0;
+    padding-top: 100px 0;
 }
 .hanletter{
     background-image: url(../images/hanletter.jpg);
