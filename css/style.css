@@ -532,10 +532,11 @@ body,html{
 }
 .sec03-btn-box{
     display: flex;
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
     padding: 28px 0;
     cursor: pointer;
+    justify-content: space-between;
 }
 .sec03-btn-box>div{
     width: 25%;
@@ -1019,14 +1020,16 @@ body,html{
     .kayak-img-text>h1{
         font-size: 30px;
     }
-    .sec03-btn-1>p{
-        display: none;
+    .sec03-btn-box{
+        width: 60%;
     }
-    .sec03-btn-2>p{
-        display: none;
+}
+@media(max-width:415px){
+    .sec03-btn-box>div>p{
+        font-size: 12px;
     }
-    .sec03-btn-3>p{
-        display: none;
+    .sec03-btn-box{
+        width: 64%;
     }
 }
 @media(max-width:769px){
